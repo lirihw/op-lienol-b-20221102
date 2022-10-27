@@ -67,7 +67,7 @@ jobs:
         cd openwrt
         git clone https://github.com/kevin-morgan/luci-theme-argon-dark package/lean/luci-theme-argon-dark
         git clone  https://github.com/xiaorouji/openwrt-passwall package/lean/passwall
-        echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
+       # echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         
     - name: Update & Install feeds
       working-directory: ./openwrt
