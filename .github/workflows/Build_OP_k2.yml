@@ -67,7 +67,7 @@ jobs:
         cd openwrt
         git clone https://github.com/kevin-morgan/luci-theme-argon-dark package/lean/luci-theme-argon-dark
         #git clone https://github.com/Lienol/openwrt-package.git package/passwall
-        git clone https://github.com/lirihw/Passwall2 package/passwall
+        git clone https://github.com/lirihw/Passwall package/passwall
         git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
        # git clone  https://github.com/xiaorouji/openwrt-passwall package/lean/passwall
        # echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
