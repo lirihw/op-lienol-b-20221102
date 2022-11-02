@@ -63,11 +63,11 @@ jobs:
         REPO_URL: https://github.com/lirihw/lede20221026
         REPO_BRANCH: master
       run: |
-        git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
+        #git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
+        git clone  https://github.com/lirihw/op-lienol-20221102 openwrt
         cd openwrt
         git clone https://github.com/kevin-morgan/luci-theme-argon-dark package/lean/luci-theme-argon-dark
         git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
-        #git clone https://github.com/lirihw/Passwall package/passwall
         git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
         #git clone https://github.com/kenzok8/small package/passwall
         #echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
