@@ -66,7 +66,7 @@ jobs:
         #git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         git clone  https://github.com/lirihw/op-lienol-20221102 openwrt
         cd openwrt
-        #git clone https://github.com/kevin-morgan/luci-theme-argon-dark package/lean/luci-theme-argon-dark
+        git clone https://github.com/Lienol/openwrt-luci/tree/21.02/themes package/themes
         #git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
         git clone https://github.com/kenzok8/small package/passwall
         #git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
